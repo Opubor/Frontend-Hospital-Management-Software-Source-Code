@@ -8,6 +8,9 @@ B. On db.js file
 i. Change OR confirm the mongoDB connection
 (example ==> return await mongoose.connect('mongodb://localhost:27017/hospital'))
 
+C. Create a .env file in the backend folder 
+i. Inside the .env file create a JWT_SECRET (example ==> JWT_SECRET = yubrw8we46684678346463hebhfch8irhwgdyw3y)
+
 ...To create first Admin
 On terminal:
 i. cd server
